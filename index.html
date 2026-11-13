@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple, persistent to-do list that helps you stay organized.">
+    <title>FocusList | My Tasks</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="js/app.js"></script>
+</head>
+<body>
+    <main class="app-shell">
+        <header class="app-header">
+            <div>
+                <p class="eyebrow">STAY ORGANIZED</p>
+                <h1>FocusList<span>.</span></h1>
+                <p class="subtitle">A little progress every day adds up.</p>
+            </div>
+            <div class="date-chip" id="today-date" aria-label="Today's date"></div>
+        </header>
+
+        <section class="todo-card" aria-labelledby="list-heading">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">YOUR WORKSPACE</p>
+                    <h2 id="list-heading">My tasks</h2>
+                </div>
+                <p class="task-count" id="items-left">0 tasks left</p>
+            </div>
+
+            <form id="todo-form" class="todo-form">
+                <label class="visually-hidden" for="todo-input">New task</label>
+                <input id="todo-input" name="todo" type="text" maxlength="120"
+                    placeholder="What needs to get done?" autocomplete="off" required>
+                <button type="submit">Add task <span aria-hidden="true">+</span></button>
+            </form>
+
+            <div class="toolbar">
+                <div class="filters" role="group" aria-label="Filter tasks">
+                    <button class="filter active" type="button" data-filter="all" aria-pressed="true">All</button>
+                    <button class="filter" type="button" data-filter="active" aria-pressed="false">Active</button>
+                    <button class="filter" type="button" data-filter="completed" aria-pressed="false">Completed</button>
+                </div>
+                <button id="clear-completed" class="text-button" type="button">Clear completed</button>
+            </div>
+
+            <ul id="todo-list" class="todo-list" aria-live="polite"></ul>
+            <p id="empty-state" class="empty-state">You're all caught up. Add a task to get started.</p>
+
+            <footer class="list-footer">
+                <span id="completion-summary">0 completed</span>
+                <span>Saved automatically</span>
+            </footer>
+        </section>
+        <p class="page-note">Built with care · Focus on what matters.</p>
+    </main>
+</body>
+</html>
