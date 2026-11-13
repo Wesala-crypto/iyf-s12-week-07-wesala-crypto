@@ -1,0 +1,20 @@
+{
+  "name": "iyf-s12-week-07-wesala-crypto",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Persistent, modular To-Do List for IYF Season 12 Week 7",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"**/*.{js,html,css}\"",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "prettier": "^3.6.2",
+    "vitest": "^4.0.8"
+  }
+}
