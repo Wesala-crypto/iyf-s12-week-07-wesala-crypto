@@ -4,9 +4,7 @@ A persistent, modular To-Do List built with HTML, CSS and JavaScript ES modules.
 
 ## Live Demo
 
-After enabling GitHub Pages from **Settings → Pages → Deploy from a branch → main → /(root)**, add the published URL here:
-
-[Open FocusList](https://wesala-crypto.github.io/iyf-s12-week-07-Wesala-crypto/)
+[Open FocusList](https://wesala-crypto.github.io/iyf-s12-week-07-wesala-crypto/)
 
 ## Features
 
