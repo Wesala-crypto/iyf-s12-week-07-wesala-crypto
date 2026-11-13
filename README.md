@@ -72,12 +72,11 @@ The Vitest suite covers adding, empty input, toggling, missing IDs, deleting, fi
 
 ## Collaboration
 
-- **PR I opened (module refactor):** Add your actual pull request URL here.
-- **PR I reviewed (classmate):** Add the pull request containing your inline review comments here.
-- **Reviewer / review status:** Add the reviewer name and approval status here.
-
-Do not invent or add PR links until the real reviews have taken place.
-
+- **My pull request:** https://github.com/Wesala-crypto/iyf-s12-week-07-wesala-crypto/pull/1
+- **Classmate's pull request reviewed:** https://github.com/fairyfaiyth/iyf-s12-week-07-fairyfaiyth/pull/1
+- **My review:** Approved the classmate's pull request.
+- **My partner reviewer:** @fairyfaiyth
+- **Partner review:** Approved my pull request.
 ## What I Learned
 
 This project helped me practise persistence with localStorage, safe JSON parsing, centralized state, modular JavaScript, pure functions, automated testing, linting and collaborative Git workflows.
